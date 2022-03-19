@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+@import url("reset.css");
+
+:root {
+    --primary: #ff3737;
+    --secondary: #ff9898;
+    --wine: #9B3B44;
+    --charcoal: #373F51;
+    --platinum: #E2E2E2;
+    --white: #e6e6e6;
+    --spring-green: #04724D;
+    --text-color: #171717;
+
+    --header: 26px;
+    --paragraph: 18px;
+}
+
+body {
+    font-family: Manrope;
+    margin: 10px 0 0 10px; 
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: var(--white)
+}
